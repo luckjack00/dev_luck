@@ -1,0 +1,2 @@
+add_files ./sim/tb_nco.v
+move_files -fileset sim_1 [get_files  E:/git_work/create_project_FPGA/sim/tb_nco.v]

@@ -1,0 +1,7 @@
+add_files ./src/top_nco.v
+add_files ./src/DDS_1_4.v
+add_files ./IP/blk_mem_gen_0/blk_mem_gen_0.xci
+add_files ./IP/fir_compiler_0/fir_compiler_0.xci
+#add_files ./IP/blk_mem_gen_0/sin_2048.coe
+#add_files ./IP/fir_compiler_0/FIR2.coe
+set_property top_file {./src/top_nco.v} [current_fileset]

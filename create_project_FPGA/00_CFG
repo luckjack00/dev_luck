@@ -1,0 +1,17 @@
+#设置路径
+set dev_dir {E:\git_work\work_FPGA}
+
+cd $dev_dir
+puts "The home_dir is $dev_dir now!"
+#设置工程名
+set _xil_proj_name "test_project"
+#创建工程
+create_project ${_xil_proj_name} ./${_xil_proj_name} -part xc7z020clg484-1 -force
+
+set_property simulator_language Mixed [current_project]
+
+#set_property file_type {Verilog Header [add filexxxxd.v]}
+cd ../create_project_FPGA
+source ./01_src
+source ./02_constros
+source ./03_sim

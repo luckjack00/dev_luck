@@ -1,0 +1,195 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/git_work/create_project_FPGA/sim_TB/tc
+T_opt
+!s110 1652107122
+V@kK<cJDJ8>kId5?cklHgk1
+04 4 4 work glbl fast 0
+04 2 4 work tb fast 0
+=1-b06ebfbd05f6-62792772-2e1-1acc
+o-quiet -auto_acc_if_foreign -work work -L unisims_ver -L unimacro_ver -L simprims_ver -L xpm +acc=npr
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.6c;65
+vdist_mem_gen_0
+Z2 !s10a 1651980100
+Z3 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z4 !s110 1652107026
+!i10b 1
+!s100 60PB[`1GORTUJ;KVXoe3K1
+I6`QUPX;FUljhbcJXC]VnC0
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 !s105 dist_mem_gen_0_sim_netlist_v_unit
+S1
+R0
+Z7 w1651980100
+Z8 8../lib/dist_mem_gen_0/dist_mem_gen_0_sim_netlist.v
+Z9 F../lib/dist_mem_gen_0/dist_mem_gen_0_sim_netlist.v
+L0 17
+Z10 OL;L;10.6c;65
+r1
+!s85 0
+31
+Z11 !s108 1652107026.000000
+Z12 !s107 ../lib/dist_mem_gen_0/dist_mem_gen_0_sim_netlist.v|../code/top.v|../code/tb.v|
+Z13 !s90 -reportprogress|300|-sv|-incr|-f|./test.f|
+!i113 0
+Z14 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vdist_mem_gen_0_dist_mem_gen_v8_0_12
+R2
+R3
+R4
+!i10b 1
+!s100 G[I;C_`FH?D]jElj]lUGE0
+IYaAj<]a<WhQBFohafaE`b2
+R5
+R6
+S1
+R0
+R7
+R8
+R9
+L0 95
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R1
+vdist_mem_gen_0_dist_mem_gen_v8_0_12_synth
+R2
+R3
+R4
+!i10b 1
+!s100 T=mHo9Fm3cFz1XA5cL8l91
+Iflg4?H4U^WE<RO?fCi7>T3
+R5
+R6
+S1
+R0
+R7
+R8
+R9
+L0 195
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R1
+vdist_mem_gen_0_rom
+R2
+R3
+R4
+!i10b 1
+!s100 SEk74QK8fhXMDRG>EVGY21
+IKFZ[FVD:ReHmac`1`^?OV2
+R5
+R6
+S1
+R0
+R7
+R8
+R9
+L0 214
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R1
+vglbl
+R2
+R3
+R4
+!i10b 1
+!s100 XLT>S?Ahjd9=6^40GE;9Y0
+IEJOZ[o2Q^N40O?2MX<z7H1
+R5
+R6
+S1
+R0
+R7
+R8
+R9
+L0 6257
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R1
+vtb
+!s10a 1651982313
+R3
+R4
+!i10b 1
+!s100 VkY=KYD?V=5eXhVXz9G3_3
+I9ShJ^LnCYRTIZGn7_FAH51
+R5
+!s105 tb_v_unit
+S1
+R0
+w1651982313
+8../code/tb.v
+F../code/tb.v
+Z15 L0 23
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R1
+vtop
+!s10a 1651982021
+R3
+R4
+!i10b 1
+!s100 6B[hPVVLbg>2>eN09WAog2
+I62h1@O?3X0hFcZ1QeLz7P2
+R5
+!s105 top_v_unit
+S1
+R0
+w1651982021
+8../code/top.v
+F../code/top.v
+R15
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R1
